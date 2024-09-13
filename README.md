@@ -19,7 +19,7 @@ Stelle sicher, dass du die folgenden Softwarepakete installiert hast:
 - [Node.js](https://nodejs.org/) (Version 14 oder höher)
 - [npm](https://www.npmjs.com/) (kommt in der Regel mit Node.js)
 
-### Installation
+### Installation-------------------------------------------------------------------------------------------------------
 
 1. **Repository klonen:**
 
@@ -29,29 +29,21 @@ Stelle sicher, dass du die folgenden Softwarepakete installiert hast:
    git clone https://github.com/mugiwara29/WebTechnologie.git
 
 
-In das Projektverzeichnis wechseln:
+2. **In das Projektverzeichnis wechseln:**
 
 Wechsel in das Verzeichnis des Projekts:
+  cd WebTechnologie
 
-bash
-Code kopieren
-cd WebTechnologie
-Abhängigkeiten installieren:
-
+3. **Abhängigkeiten installieren:**
 Installiere alle benötigten npm-Pakete:
-
-bash
-Code kopieren
 npm install
-Entwicklungsserver starten:
 
+4. **Entwicklungsserver starten:**
 Starte den Entwicklungsserver:
-
-bash
-Code kopieren
 npm run dev
 Der Server wird auf http://localhost:3000 laufen (oder einem anderen Port, falls 3000 bereits belegt ist).
 
+### Ende -------------------------------------------------------------------------------------------------------
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
