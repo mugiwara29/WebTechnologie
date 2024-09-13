@@ -1,4 +1,57 @@
 # React + TypeScript + Vite
+# React + TypeScript + Vite
+
+Dieses Template bietet ein minimales Setup, um React in Vite mit HMR und einigen ESLint-Regeln zum Laufen zu bringen.
+
+Derzeit sind zwei offizielle Plugins verfügbar:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) verwendet [Babel](https://babeljs.io/) für Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) verwendet [SWC](https://swc.rs/) für Fast Refresh
+
+## Installation und Nutzung
+
+Folge diesen Schritten, um das Projekt lokal zu installieren und zu starten:
+
+### Voraussetzungen
+
+Stelle sicher, dass du die folgenden Softwarepakete installiert hast:
+
+- [Node.js](https://nodejs.org/) (Version 14 oder höher)
+- [npm](https://www.npmjs.com/) (kommt in der Regel mit Node.js)
+
+### Installation
+
+1. **Repository klonen:**
+
+   Klone das Repository auf deinen lokalen Rechner:
+
+   ```bash
+   git clone https://github.com/mugiwara29/WebTechnologie.git
+
+
+In das Projektverzeichnis wechseln:
+
+Wechsel in das Verzeichnis des Projekts:
+
+bash
+Code kopieren
+cd WebTechnologie
+Abhängigkeiten installieren:
+
+Installiere alle benötigten npm-Pakete:
+
+bash
+Code kopieren
+npm install
+Entwicklungsserver starten:
+
+Starte den Entwicklungsserver:
+
+bash
+Code kopieren
+npm run dev
+Der Server wird auf http://localhost:3000 laufen (oder einem anderen Port, falls 3000 bereits belegt ist).
+
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
